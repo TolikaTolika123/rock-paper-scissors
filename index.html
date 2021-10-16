@@ -6,11 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
+    <div class="container">
+        <h1 class="title">Rock-Paper-Scissors</h1>
+        <p class="counting">Round <span>1</span> of 5</p>
+        <div class="player__outer">
+            <div class="player">
+                <h3 class="player__title">Player</h3>
+                <p class="score">score:</p>
+                <div class="player__inner">
+                    <div class="image-big">
+                        <img src="images/paper.svg" class="big__image">
+                    </div>
+                    <div class="play-images">
+                        <div class="image-small">
+                            <img src="images/paper.svg" alt="">
+                        </div>
+                        <div class="image-small">
+                            <img src="images/rock.svg" alt="">
+                        </div>
+                        <div class="image-small">
+                            <img src="images/scissors.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="player">
+                <h3 class="player__title">Computer</h3>
+                <p class="score">score:</p>
+                <div class="player__inner">
+                    <div class="image-big">
+                        <img src="images/paper.svg" class="big__image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
