@@ -15,23 +15,21 @@
 <body>
     <div class="container">
         <h1 class="title">Rock-Paper-Scissors</h1>
-        <p class="counting">Round <span>1</span> of 5</p>
+        <p class="counting">Round <span class="counter"></span> of 5</p>
         <div class="player__outer">
             <div class="player">
                 <h3 class="player__title">Player</h3>
-                <p class="score">score:</p>
+                <p class="score">score: <span class="player__score"></span></p>
                 <div class="player__inner">
-                    <div class="image-big">
-                        <img src="images/paper.svg" class="big__image">
-                    </div>
+                    <div class="image-big player"></div>
                     <div class="play-images">
-                        <div class="image-small">
+                        <div class="image-small paper">
                             <img src="images/paper.svg" alt="">
                         </div>
-                        <div class="image-small">
+                        <div class="image-small rock">
                             <img src="images/rock.svg" alt="">
                         </div>
-                        <div class="image-small">
+                        <div class="image-small scissors">
                             <img src="images/scissors.svg" alt="">
                         </div>
                     </div>
@@ -39,11 +37,9 @@
             </div>
             <div class="player">
                 <h3 class="player__title">Computer</h3>
-                <p class="score">score:</p>
+                <p class="score">score: <span class="computer__score"></span></p>
                 <div class="player__inner">
-                    <div class="image-big">
-                        <img src="images/paper.svg" class="big__image">
-                    </div>
+                    <div class="image-big computer"></div>
                 </div>
             </div>
         </div>
